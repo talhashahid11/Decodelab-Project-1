@@ -1,0 +1,55 @@
+{
+  "intents": {
+    "hello": {
+      "responses": [
+        "Hi there! How can I help you today?",
+        "Hello! Great to see you.",
+        "Hey! What's on your mind?"
+      ]
+    },
+    "hi": {
+      "responses": [
+        "Hi there! How can I help you today?",
+        "Hello! Great to see you."
+      ]
+    },
+    "how are you": {
+      "responses": [
+        "I'm just a bunch of if-else statements, but I'm doing great! How about you?",
+        "Running smoothly on pure logic today. You?"
+      ]
+    },
+    "what is your name": {
+      "responses": ["I'm DecodeBot, your friendly rule-based assistant."]
+    },
+    "who are you": {
+      "responses": ["I'm DecodeBot — a Project 1 creation from the DecodeLabs AI Internship."]
+    },
+    "what can you do": {
+      "responses": ["Right now I can chat using predefined rules. I can also tell you the time and a joke!"]
+    },
+    "help": {
+      "responses": ["Try greeting me, asking my name, asking the time, or asking for a joke. Type 'exit' to leave."]
+    },
+    "time": {
+      "responses": ["__DYNAMIC_TIME__"]
+    },
+    "joke": {
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "I told my computer I needed a break, and it said 'no problem, I'll go to sleep.'"
+      ]
+    },
+    "thank you": {
+      "responses": ["You're welcome!", "Anytime!"]
+    },
+    "thanks": {
+      "responses": ["You're welcome!", "Happy to help!"]
+    },
+    "bye": {
+      "responses": ["Goodbye! Have a great day."]
+    }
+  },
+  "exit_commands": ["exit", "quit", "bye", "goodbye"],
+  "default_response": "I do not understand that yet. Type 'help' to see what I can do."
+}
