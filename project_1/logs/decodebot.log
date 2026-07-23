@@ -1,0 +1,7 @@
+2026-07-23 20:29:38 | INFO     | decodebot.knowledge_base | Knowledge base loaded: 12 intents, 4 exit commands.
+2026-07-23 20:29:38 | INFO     | decodebot.bot | DecodeBot initialized.
+2026-07-23 20:29:41 | DEBUG    | decodebot.bot | Turn 1 | user input (sanitized): 'hello'
+2026-07-23 20:29:44 | DEBUG    | decodebot.bot | Turn 2 | user input (sanitized): 'time'
+2026-07-23 20:29:47 | DEBUG    | decodebot.bot | Turn 3 | user input (sanitized): 'joke'
+2026-07-23 20:29:50 | DEBUG    | decodebot.bot | Turn 4 | user input (sanitized): 'bye'
+2026-07-23 20:29:50 | INFO     | decodebot.bot | Exit command received: 'bye'
